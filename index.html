@@ -11,7 +11,7 @@
     <!--- Header -->
     <header>
       <!--- Navbar -->
-      <div class="container mx-auto px-6 md:px-4">
+      <div class="container mx-auto px-6 md:px-4 ">
         <!-- Nav/logo Container -->
         <nav id="navbar" class="flex items-center justify-between font-bold text-black w-full z-40">
           <img
@@ -25,10 +25,6 @@
                     <a href="/" class="group-hover:text-black">Home</a>
                     <div class="mx-2 group-hover:border-b group-hover:border-black"></div>
                 </div>
-                <div class="group">
-                  <a href="#about" class="group-hover:text-black">About</a>
-                  <div class="mx-2 group-hover:border-b group-hover:border-black"></div>
-              </div>
                 <div class="group">
                     <a href="#service" class="group-hover:text-black">Service</a>
                     <div class="mx-2 group-hover:border-b group-hover:border-black"></div>
@@ -54,56 +50,132 @@
 
         <!-- @todo -Mobile Menu -->
         <div id="menu" class=" top-0 bottom-0 left-0 hidden flex-col self-end w-full  py-1 pt-15 pl-12 space-y-3 text-lg  uppercase">
-          <a href="/" class="text-gray-500 hover:text-[#FEBD59]">Home</a>
-          <a href="#about" class="text-gray-500 hover:text-[#FEBD59]">About</a>
-          <a href="#service" class="text-gray-500 hover:text-[#FEBD59]">Service</a>
+          <a href="/" class="text-gray-900 hover:text-[#FEBD59]">Home</a>
+         <a href="#service" class="text-gray-500 hover:text-[#FEBD59]">Service</a>
           <a href="#pricing" class="text-gray-500 hover:text-[#FEBD59]">Price</a>
           <a href="#contact" class="text-gray-500 hover:text-[#FEBD59]">Contact</a>
         </div>
-
     </div>
     </header>
     <!-- Main Section -->
-  <div class="bg-white overflow-hidden relative">
-      <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-          <h2 class="text-3xl font-extrabold text-black sm:text-4xl">
-              <span class="block">
-                Temukan Masa Depan
-              </span>
-              <span class="block text-blue-500">
-                  Dengan Koneksi Cybernet
-              </span>
-          </h2>
-          <p class="text-xl mt-4 text-gray-400">
-            Nikmati solusi terbaik dalam koneksi internet untuk pengalaman yang cepat, handal, dan aman. Bergabunglah dengan kami dan temukan masa depan yang terhubung dengan Cybernet
-          </p>
-          <div class="lg:mt-0 lg:flex-shrink-0">
-              <div class="mt-12 inline-flex rounded-md shadow">
-                  <button type="button" class="py-4 px-6  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                      Get started
-                  </button>
-              </div>
+<section id="main">
+  <div class="bg-gray-200/50 bg-[url('/images/bg-img.png')] bg-cover bg-no-repeat min-h-screen bg-center">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
+        <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
+          <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-black sm:text-4xl md:mx-auto">
+              Temukan Masa Depan
+              <br /> Dengan Koneksi Cybernet
+            </h2>
+            <p class="text-base text-gray-600 md:text-lg">
+              Nikmati solusi terbaik dalam koneksi internet untuk pengalaman yang cepat, handal, dan aman. Bergabunglah dengan kami dan temukan masa depan yang terhubung dengan Cybernet
+            </p>
           </div>
+          <div>
+            <a
+              href="#pricing"
+              class="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide transition duration-200 rounded shadow-md hover:text-white text-black bg-gray-400/40 hover:bg-blue-400/40 focus:shadow-outline focus:outline-none"
+            >
+              Get started
+            </a>
+          </div>
+        </div>
       </div>
-      <img src="/images/img-bg-cover.jpg" class="absolute top-0 right-0 hidden h-full max-w-1/2 lg:block"/>
+    </div>
   </div>
-  
-    <!-- Section About -->
-  <section id="about">
-      <!-- Feature Container -->
-      <div class="relative container flex flex-col max-w-6xl mx-auto mb-28 px-6 text-gray-900 md:flex-row md:px-0">
-          <!-- Image -->
-          <img src="/images/img-interactive.jpg" alt="">
-          <!-- Text Container -->
-          <div class="top-44 pr-2 pl-2 pb-2 bg-gray-100/90 rounded-2xl md:absolute md:right-0 md:py-20 md:pl-20">
-              <h2 class="max-w-lg mt-8 mb-6 font-sans text-center text-xl text-gray-900 uppercase md:text-3xl md:mt-0 md:text-left">
-                  Layanan Internet Terbaik dengan Cybernet
-              </h2>
-              <p class="max-w-md text-sm text-justify text-gray-500">
-                  Selamat datang di Cybernet, penyedia layanan internet terkemuka yang mempersembahkan masa depan koneksi digital.Kami berkomitmen untuk memberikan pengalaman internet terbaik kepada pelanggan kami dengan kecepatan tinggi, keandalan, dan keamanan yang tak tertandingi.</p>
-              </p>
-          </div>
+</section>
+  <!-- Pricing Page -->
+  <section id="pricing">
+    <div class="container mx-auto p-4 sm:p-10">
+      <div class="mb-16 space-y-4 text-center">
+        <h1 class="text-5xl font-semibold uppercase">Paket Harga Cybernet</h1>
+        <p class="px-4 text-md font-thin text-slate-700 sm:px-8 lg:px-24">Temukan paket yang sesuai dengan kebutuhan dan budget Anda</p>
       </div>
+      <div class="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:max-w-full lg:gap-2 xl:gap-6 lg:grid-cols-3">
+        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800 hover:-translate-y-3 duration-700 transition">
+          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Silver</span>
+          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
+            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.200.000&nbsp;</span>
+            <span class="pb-2 text-2xl group-hover:text-white">Rp.175.000</span>
+            <span class="text-lg group-hover:text-white">/Bulan</span>
+          </p>
+          <ul class="flex-1 space-y-2 group-hover:text-white">
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Speed Upto 10Mbps</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Unlimited Bandwidth</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Support 24/7</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Stable Performance</span>
+            </li>
+          </ul>
+          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400">Subscribe</button>
+        </div>
+        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800 hover:-translate-y-3 duration-700 transition">
+          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Professional</span>
+          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
+            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.250.000&nbsp;</span>
+            <span class="pb-2 text-2xl group-hover:text-white">Rp.230.000</span>
+            <span class="text-lg group-hover:text-white">/Bulan</span>
+          </p>
+          <ul class="flex-1 space-y-2 group-hover:text-white">
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Speed Upto 15Mbps</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Unlimited Bandwidth</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Support 24/7</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Stable Performance</span>
+            </li>
+          </ul>
+          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400 ">Subscribe</button>
+        </div>
+        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800 hover:-translate-y-3 duration-700 transition">
+          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Professional</span>
+          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
+            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.300.000&nbsp;</span>
+            <span class="pb-2 text-2xl group-hover:text-white">Rp.280.000</span>
+            <span class="text-lg group-hover:text-white">/Bulan</span>
+          </p>
+          <ul class="flex-1 space-y-2 group-hover:text-white">
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Speed Upto 20Mbps</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Unlimited Bandwidth</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Support 24/7</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
+              <span>Stable Performance</span>
+            </li>
+          </ul>
+          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400">Subscribe</button>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- Service Page  -->
   <section id="service">
@@ -173,98 +245,7 @@
           </div>
       </div> 
   </section>
-  <!-- Pricing Page -->
-  <section id="pricing">
-    <div class="container mx-auto p-4 sm:p-10">
-      <div class="mb-16 space-y-4 text-center">
-        <h1 class="text-5xl font-semibold uppercase">Paket Harga Cybernet</h1>
-        <p class="px-4 text-md font-thin text-slate-700 sm:px-8 lg:px-24">Temukan paket yang sesuai dengan kebutuhan dan budget Anda</p>
-      </div>
-      <div class="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:max-w-full lg:gap-2 xl:gap-6 lg:grid-cols-3">
-        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800">
-          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Silver</span>
-          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
-            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.200.000&nbsp;</span>
-            <span class="pb-2 text-2xl group-hover:text-white">Rp.175.000</span>
-            <span class="text-lg group-hover:text-white">/Bulan</span>
-          </p>
-          <ul class="flex-1 space-y-2 group-hover:text-white">
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Speed Upto 10Mbps</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Unlimited Bandwidth</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Support 24/7</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Stable Performance</span>
-            </li>
-          </ul>
-          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400">Subscribe</button>
-        </div>
-        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800">
-          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Professional</span>
-          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
-            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.250.000&nbsp;</span>
-            <span class="pb-2 text-2xl group-hover:text-white">Rp.230.000</span>
-            <span class="text-lg group-hover:text-white">/Bulan</span>
-          </p>
-          <ul class="flex-1 space-y-2 group-hover:text-white">
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Speed Upto 15Mbps</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Unlimited Bandwidth</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Support 24/7</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Stable Performance</span>
-            </li>
-          </ul>
-          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400">Subscribe</button>
-        </div>
-        <div class="relative group flex flex-col items-center p-8 border-2 rounded-md border-blue-400 hover:bg-slate-800">
-          <span class="absolute top-0 px-6 pt-1 pb-2 font-medium rounded-b-lg bg-blue-400 text-white">Professional</span>
-          <p class="flex items-center justify-center my-6 space-x-2 font-bold">
-            <span class="text-lg line-through text-gray-300 group-hover:text-gray-500">&nbsp;Rp.300.000&nbsp;</span>
-            <span class="pb-2 text-2xl group-hover:text-white">Rp.280.000</span>
-            <span class="text-lg group-hover:text-white">/Bulan</span>
-          </p>
-          <ul class="flex-1 space-y-2 group-hover:text-white">
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Speed Upto 20Mbps</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Unlimited Bandwidth</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Support 24/7</span>
-            </li>
-            <li class="flex items-center space-x-2">
-              <img src="/images/icon-check.svg" alt="" class="w-6 h-6">
-              <span>Stable Performance</span>
-            </li>
-          </ul>
-          <button class="px-8 py-3 mt-12 text-lg font-semibold uppercase rounded-lg border border-blue-400 text-gray-900 group-hover:text-white group-hover:bg-blue-400">Subscribe</button>
-        </div>
-      </div>
-    </div>
-  </section>
+  
   <!-- Contact -->
   <section id="contact">
     <div class="flex flex-wrap justify-center mt-4 mb-2">
@@ -294,7 +275,6 @@
 <footer class="bg-neutral-900 text-center text-white">
   <div class="px-4 pt-4 flex space-x-3 items-center justify-center">
     <a href="/" class="text-gray-200/40 hover:border-b hover:text-white">Home</a>
-    <a href="#about" class="text-gray-200/40 hover:border-b hover:text-white">About</a>
     <a href="#service" class="text-gray-200/40 hover:border-b hover:text-white">Service</a>
     <a href="#pricing" class="text-gray-200/40 hover:border-b hover:text-white">Pricing</a>
     <a href="#contact" class="text-gray-200/40 hover:border-b hover:text-white">Contact</a>
