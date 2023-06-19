@@ -5,8 +5,9 @@
 #hero {
     background-image: url('../images/bg-img.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 30%; 
     background-size: cover;
+    height: 730px;
 }
 
 @media (max-width: 576px) {
