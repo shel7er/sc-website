@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+#hero {
+    background-image: url('../images/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    background-image: url('../images/bg-img.png');
+    background-position: center;
+  }
+}
 
 /* Hamburger Menu */
 .hamburger {
